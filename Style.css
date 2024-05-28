@@ -1,0 +1,141 @@
+*{
+   margin: 0;
+   padding: 0;
+   border: 2;
+   font-size: 100%;
+   vertical-align: baseline;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background: #d4d0cd;
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.head {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    height: 125px;
+    background: #dca445;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.navbar {
+    margin-right: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    gap: 20px;
+}
+
+.logo {
+    margin-left: 30px;
+    height: 100px;
+}
+
+.logo_img{
+    height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(240, 248, 255);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+  
+    padding: 23px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #13000000;
+}
+
+.title {
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #1b2b75;
+    color: aliceblue;
+    text-decoration: none;
+    background: #13000000;
+}
+
+.content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.characters{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5em;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+
+}
+
+.characters a{
+    text-decoration: none;
+}
+
+
+.characters_character{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+    background-color: #1b2b75;
+    
+}
+
+
+.characters_character--img{
+    object-fit: contain;
+    height: 100px;
+    width: auto;
+    flex-basis: content;
+    padding: 0.5em;
+}
+
+.characters_character--title{
+    flex-grow: 0;
+    color: #fff;
+}
